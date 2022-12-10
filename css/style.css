@@ -1,0 +1,265 @@
+
+body{
+/* font-family: 'Montserrat'; */
+margin:0px;
+/* padding-right:200px; */
+}
+#title{
+
+  background-color: #ff4c68;
+  /* margin:0px; */
+  /* padding-right: 20px; */
+  /* padding-bottom: 3%; */
+  color:#fff;
+  margin-left: 0px;
+
+}
+
+.navbar-brand{
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Ubuntu Condensed';
+  font-size:2.5rem;
+  font-weight: bold;
+  margin-right:0px;
+
+
+
+}
+
+h1{
+font-family: 'Montserrat', sans-serif;
+font-size:4rem;
+line-height:1.5;
+padding:5% 0%;
+
+
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.navbar{
+  padding-bottom:4.5rem;
+}
+
+.collapse{
+  text-align: right;
+}
+
+
+.Download-button{
+  margin-left:0%;
+  margin-right:3%;
+  margin-top:5%;
+  margin-bottom: 5%;
+}
+
+
+.gunnu{
+  transform: rotate(22deg);
+  position:absolute;
+/* z-index: 0; */
+/* right: 30%; */
+}
+
+#features{
+  padding: 7% 15%;
+  margin-right:0px;
+  /* margin-left: 0px; */
+  /* padding-top:50px; */
+position: relative;
+/* z-index: 1; */
+
+  background-color: #fff;
+    /*  */
+
+}
+.h30{
+  color: #8f8f8f;
+  text-align: center;
+  /* padding-bottom:10%; */
+
+}
+.h31{
+    text-align: center;
+    padding-top: 6%;
+
+
+}
+
+.icon1{
+
+    color: #ef8172;
+    margin-top:37%;
+
+}
+
+.icon1:hover{
+color:#ff4c68;
+}
+
+
+
+#testimonials{
+  background-color: #ef8172;
+
+  text-align:center;
+}
+ .photo{
+   width:15%;
+   border-radius: 100%;
+   margin:20px;
+
+ }
+ .image420{
+   background-color:  #ef8172;
+   text-align:center;
+
+ }
+ .image421{
+   width:15%;
+text-align: center;
+ }
+
+ .head1{
+   font-family:'Monteserrat-Alternates';
+   color: #fff;
+
+ }
+ .h30{
+   margin-bottom:15%;
+ }
+
+
+/* button ko door krne k liye ye use krte h apn ok */
+
+ .carousel-item{
+     padding: 7% 15%;
+ }
+
+ .cat{
+   text-align: center;
+   background-color: #ff4c68;
+   padding:7% 15%;
+ }
+ .cat1{
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 4rem;
+   color:#fff;
+ }
+ .buto{
+
+     /* margin-left:2%; */
+     margin-right:2%;
+     margin-top:10%;
+     margin-bottom: 10%;
+font-family: sans-serif;
+     font-size:1.5rem;
+
+
+ }
+ #footer{
+   text-align: center;
+   /* padding-top: 10%; */
+    margin-bottom:0;
+ }
+ .ico{
+   margin-right:1%;
+   margin-top:8%;
+   margin-bottom: .8%;
+      text-align: center;
+ }
+ .copy{
+   font-size: 1.5rem;
+   text-align: center;
+   font-family: 'Raleway', sans-serif;
+   padding-bottom:70px;
+   margin-bottom: 0px;
+ }
+
+.price1{
+  font-size: 50px;
+  padding: 0px 0px 7px;
+}
+.price2{
+  font-size: 20px;
+}
+
+
+#pricing{
+  text-align:center;
+  margin-right: 0px;
+padding: 100px;
+}
+.rowing{
+  margin-right: 0px;
+}
+ .pricing-colom{
+   padding:3% 2%;
+ }
+
+
+ @media (max-width:1050px){
+
+#title{
+  text-align:center;
+}
+.gunnu{
+  position: static;
+  transform: rotate(0deg);
+}
+
+ }
+
+@media(max-width:545px){
+
+  #title{
+    /* padding-right: 200px; */
+    /* padding-left: 50px; */
+    margin-right: 0px;
+    text-align: center;
+  }
+  #features{
+    /* padding-right: 200px; */
+    /* margin-right: 0px; */
+    /* padding-left: 50px; */
+      text-align: center;
+      margin-right: 0px;
+  }
+  #testimonials{
+    /* padding-right: 200px; */
+    /* padding-left: 50px; */
+      text-align: center;
+      margin-right: 0px;
+  }
+  #press{
+    /* padding-right: 200px; */
+    /* padding-left: 50px; */
+      text-align: center;
+      margin-right: 0px;
+  }
+  #pricing{
+    /* padding-right: 200px; */
+    /* padding-left: 50px; */
+      text-align: center;
+      /* margin-right: 0px; */
+  }
+  #cta{
+    /* padding-right: 100px; */
+    /* padding-left: 50px; */
+      text-align: center;
+      /* margin-right: 0px; */
+  }
+  #footer{
+    /* padding-right: 100px; */
+    /* padding-left: 50px; */
+      text-align: center;
+      /* margin-right: 0px; */
+  }
+  .diyash{
+    padding-right:0px;
+    margin: 0px;
+    position:relative;
+    right:15%
+  }
+}
